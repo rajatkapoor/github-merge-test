@@ -5,7 +5,7 @@ on:
       - opened
       - edited
   schedule:
-    - cron: 52 8 * * *
+    - cron: 59 8 * * *
 jobs:
   merge_schedule:
     runs-on: ubuntu-latest
