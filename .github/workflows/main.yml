@@ -17,6 +17,6 @@ jobs:
           # rebase. Default is merge.
           merge_method: merge
           #  Time zone to use. Default is UTC.
-          time_zone: "Asia/Kolkatta"
+          time_zone: "UTC+5:30"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
