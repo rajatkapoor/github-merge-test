@@ -5,11 +5,11 @@ on:
       - opened
       - edited
   schedule:
-    - cron: 47 8 * * *
+    - cron: 52 8 * * *
 jobs:
   merge_schedule:
     runs-on: ubuntu-latest
     steps:
       - uses: gr2m/merge-schedule-action@v1.x
         env:
-          GITHUB_TOKEN: $
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
