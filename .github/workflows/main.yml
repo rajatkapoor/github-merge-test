@@ -16,6 +16,5 @@ jobs:
           # Merge method to use. Possible values are merge, squash or
           # rebase. Default is merge.
           merge_method: merge
-          time_zone: IST
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
